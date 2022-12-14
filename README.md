@@ -123,5 +123,5 @@ function plusMinus(arr) {
 
 ![Accepted](images/submission2.png)
 
-## Refernces
+## References
 1. [Optimal Loops](https://blog.bitsrc.io/finding-the-fastest-loop-type-in-javascript-38af16fe7b4f)
