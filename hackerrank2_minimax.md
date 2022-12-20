@@ -43,9 +43,9 @@ console.log(`${sumLow} ${sumHigh}`)
  ```
 
 ## Refactoring for Optimization
-The chosen solution uses a JavaScript method to cycle through each element in `arr`. The `forEach()` method has a slower run time compared to a `for()` loop according to the article in reference 1 below.
+To eliminate the use of `sort()` and `reverse()` method we can use `Math.max` and `Math.min`. We stick with the high and low values (`min` and `max`), and loop over the legnth of `arr`. Both `max` and `min` will have the maximum sum of `arr`. Next, to find the maximum value, maximum value in `arr` is found and then negated from `max`. The oppositie is performed for `min`. 
 
-Because of this, the solution was modified by replacing the `forEach()` with a `for()` loop.
+The reason for this is because there will only be 5 integers in the array, so to get the maximum and mimimum totals using 4 integers, we only need to find the maximum and minuimum values to calculate each total.
 
  ``` JavaScript
 function miniMaxSum(arr) {
@@ -66,13 +66,11 @@ function miniMaxSum(arr) {
 ## Hackerrank Submission & Acceptance 
 ### Submissions Accepted
 
-![Accepted](images/accepted.png)
+![Accepted](images/hackertwo-accept.png)
 
 ### Code Submissions
-![Accepted](images/submission1.png)
+![Accepted](images/hackertwo-1.png)
 
 
-![Accepted](images/submission2.png)
+![Accepted](images/hackertwo-2.png)
 
-## References
-1. [Optimal Loops](https://blog.bitsrc.io/finding-the-fastest-loop-type-in-javascript-38af16fe7b4f)

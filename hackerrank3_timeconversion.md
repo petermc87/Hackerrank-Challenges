@@ -56,11 +56,9 @@ No refactoring can be observed at this time, but will be revisited with more hac
 ## Hackerrank Submission & Acceptance 
 ### Submissions Accepted
 
-![Accepted](images/hackertwo-accept.png)
+![Accepted](images/hackerthree-accept.png)
 
 ### Code Submissions
-![Accepted](images/hackertwo-1.png)
+![Accepted](images/hackerthree-1.png)
 
-
-![Accepted](images/hackertwo-2.png)
 
