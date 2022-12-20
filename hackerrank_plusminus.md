@@ -35,7 +35,7 @@ To solve this using JavaScript, a counter variable for Positive Integers, Negati
  let negInt = 0
  let zeroInt = 0
  ```
-A loop method is used to cycle over all the elements in the `.arr` array of elements passed into the `plusMinus(arr)` already declared in Hackerrank. The current element being selected by the element is printed out the the console for verification.
+A loop method is used to cycle over all the elements in the `.arr` array of elements passed into the `plusMinus(arr)` function already declared in Hackerrank. The current element being selected by the element is printed out to the console for verification.
 
  ``` JavaScript
    arr.forEach((element)=>{
@@ -44,7 +44,7 @@ A loop method is used to cycle over all the elements in the `.arr` array of elem
   ) 
 
  ```
-Next, conditionals are used to check if its a positive number `if(element > 0){}`, negative `else if(element < 0){}`, and any other conditional (in this case would be Zero) `else{}`
+Next, conditionals are used to check if its a positive number `if(element > 0){}`, negative `else if(element < 0){}`, and any other conditional (in this case, Zero) using `else{}`.
 
  ``` JavaScript
    arr.forEach((element)=>{
@@ -80,9 +80,8 @@ Hackerrank asks to print each ratio out to the console, so the final step is per
 
 The ratio is calculated within the `console.log()` method. Using the Positive ratio as an example again, the final value stored in `posInt` is divided by the length of the array using `arr.length`. The result is then converted to a number with a minimum 6 decimal places using the `.toFixed()` method. 
 
-
 ## Refactoring for Optimization
-This problem uses a method to cycle through each element in `arr`. the `forEach()` method has a slower run time compared to a `for()` loop according to the article in refernce 1 below.
+The chosen solution uses a JavaScript method to cycle through each element in `arr`. The `forEach()` method has a slower run time compared to a `for()` loop according to the article in reference 1 below.
 
 Because of this, the solution was modified by replacing the `forEach()` with a `for()` loop.
 
